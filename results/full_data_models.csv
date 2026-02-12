@@ -1,0 +1,10 @@
+experiment,model,feature,trained_on,full_dataset_size,full_training_time_seconds,model_path
+linear_svm__bow,linear_svm,bow,complete_dataset,9186,0.2231769561767578,C:\Users\prakh\Desktop\NLU\new\NLU_Assignment_1_Fresh\models\linear_svm__bow.pkl
+logistic_regression__bow,logistic_regression,bow,complete_dataset,9186,0.3069171905517578,C:\Users\prakh\Desktop\NLU\new\NLU_Assignment_1_Fresh\models\logistic_regression__bow.pkl
+multinomial_nb__bow,multinomial_nb,bow,complete_dataset,9186,0.20602035522460938,C:\Users\prakh\Desktop\NLU\new\NLU_Assignment_1_Fresh\models\multinomial_nb__bow.pkl
+linear_svm__tfidf,linear_svm,tfidf,complete_dataset,9186,0.5062274932861328,C:\Users\prakh\Desktop\NLU\new\NLU_Assignment_1_Fresh\models\linear_svm__tfidf.pkl
+logistic_regression__tfidf,logistic_regression,tfidf,complete_dataset,9186,0.5060281753540039,C:\Users\prakh\Desktop\NLU\new\NLU_Assignment_1_Fresh\models\logistic_regression__tfidf.pkl
+multinomial_nb__tfidf,multinomial_nb,tfidf,complete_dataset,9186,0.4878528118133545,C:\Users\prakh\Desktop\NLU\new\NLU_Assignment_1_Fresh\models\multinomial_nb__tfidf.pkl
+linear_svm__ngram,linear_svm,ngram,complete_dataset,9186,0.6956701278686523,C:\Users\prakh\Desktop\NLU\new\NLU_Assignment_1_Fresh\models\linear_svm__ngram.pkl
+logistic_regression__ngram,logistic_regression,ngram,complete_dataset,9186,0.7577610015869141,C:\Users\prakh\Desktop\NLU\new\NLU_Assignment_1_Fresh\models\logistic_regression__ngram.pkl
+multinomial_nb__ngram,multinomial_nb,ngram,complete_dataset,9186,0.704596996307373,C:\Users\prakh\Desktop\NLU\new\NLU_Assignment_1_Fresh\models\multinomial_nb__ngram.pkl

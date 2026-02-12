@@ -35,16 +35,27 @@ Generated files:
 - `results/all_results.csv`
 - `results/per_class_results.csv`
 - `results/confusion_matrices.csv`
-- `models/*.joblib`
+- `results/cv_results.csv`
+- `results/full_data_models.csv`
+- `models/*.pkl`
 
-## 5) Open report and GitHub page content
+## 5) Generate visualizations
+
+```powershell
+python src/generate_visualizations.py
+```
+
+Generated files:
+- `results/visualizations/*.png`
+
+## 6) Open report and GitHub page content
 - Detailed report: `docs/report.md`
-- GitHub Pages content: `site/index.md`
+- GitHub Pages content: `README.md` (or `index.md` if you add one)
 
-## 6) Publish GitHub Pages
+## 7) Publish GitHub Pages
 1. Push this project to your own GitHub repository.
 2. In GitHub → Settings → Pages:
    - Source: Deploy from a branch
    - Branch: `main`
-   - Folder: `/site`
+   - Folder: `/ (root)`
 3. Save and wait for deployment.
