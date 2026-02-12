@@ -1,0 +1,10 @@
+experiment,model,feature,labels_order,politics_pred_politics,politics_pred_sports,sports_pred_politics,sports_pred_sports
+linear_svm__bow,linear_svm,bow,"Politics,Sports",863,56,34,885
+logistic_regression__bow,logistic_regression,bow,"Politics,Sports",876,43,33,886
+multinomial_nb__bow,multinomial_nb,bow,"Politics,Sports",861,58,43,876
+linear_svm__tfidf,linear_svm,tfidf,"Politics,Sports",884,35,42,877
+logistic_regression__tfidf,logistic_regression,tfidf,"Politics,Sports",877,42,48,871
+multinomial_nb__tfidf,multinomial_nb,tfidf,"Politics,Sports",867,52,49,870
+linear_svm__ngram,linear_svm,ngram,"Politics,Sports",877,42,43,876
+logistic_regression__ngram,logistic_regression,ngram,"Politics,Sports",877,42,48,871
+multinomial_nb__ngram,multinomial_nb,ngram,"Politics,Sports",868,51,52,867
